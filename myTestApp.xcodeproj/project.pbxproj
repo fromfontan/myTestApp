@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC3535B61BD9117D00783715 /* tr.png in Resources */ = {isa = PBXBuildFile; fileRef = CC3535B51BD9117D00783715 /* tr.png */; settings = {ASSET_TAGS = (); }; };
+		CC3535B91BD920C300783715 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3535B81BD920C300783715 /* Order.m */; settings = {ASSET_TAGS = (); }; };
+		CC3535BC1BDA6EDD00783715 /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3535BB1BDA6EDD00783715 /* MyAnnotation.m */; settings = {ASSET_TAGS = (); }; };
 		CCB980101BD8D00600FAFEE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB9800F1BD8D00600FAFEE0 /* main.m */; };
 		CCB980131BD8D00600FAFEE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB980121BD8D00600FAFEE0 /* AppDelegate.m */; };
 		CCB980161BD8D00600FAFEE0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB980151BD8D00600FAFEE0 /* FirstViewController.m */; };
@@ -16,6 +19,7 @@
 		CCB980211BD8D00600FAFEE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB9801F1BD8D00600FAFEE0 /* LaunchScreen.storyboard */; };
 		CCB9802C1BD8D00600FAFEE0 /* myTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB9802B1BD8D00600FAFEE0 /* myTestAppTests.m */; };
 		CCB980371BD8D00600FAFEE0 /* myTestAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB980361BD8D00600FAFEE0 /* myTestAppUITests.m */; };
+		CCB980461BD8D86500FAFEE0 /* MainTabControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB980451BD8D86500FAFEE0 /* MainTabControllerViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC3535B51BD9117D00783715 /* tr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tr.png; sourceTree = "<group>"; };
+		CC3535B71BD920C300783715 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		CC3535B81BD920C300783715 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		CC3535BA1BDA6EDD00783715 /* MyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		CC3535BB1BDA6EDD00783715 /* MyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
 		CCB9800B1BD8D00600FAFEE0 /* myTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB9800F1BD8D00600FAFEE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCB980111BD8D00600FAFEE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +63,8 @@
 		CCB980321BD8D00600FAFEE0 /* myTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB980361BD8D00600FAFEE0 /* myTestAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myTestAppUITests.m; sourceTree = "<group>"; };
 		CCB980381BD8D00600FAFEE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCB980441BD8D86500FAFEE0 /* MainTabControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabControllerViewController.h; sourceTree = "<group>"; };
+		CCB980451BD8D86500FAFEE0 /* MainTabControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabControllerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +117,17 @@
 			children = (
 				CCB980111BD8D00600FAFEE0 /* AppDelegate.h */,
 				CCB980121BD8D00600FAFEE0 /* AppDelegate.m */,
+				CC3535B71BD920C300783715 /* Order.h */,
+				CC3535B81BD920C300783715 /* Order.m */,
+				CC3535B51BD9117D00783715 /* tr.png */,
 				CCB980141BD8D00600FAFEE0 /* FirstViewController.h */,
 				CCB980151BD8D00600FAFEE0 /* FirstViewController.m */,
 				CCB980171BD8D00600FAFEE0 /* SecondViewController.h */,
 				CCB980181BD8D00600FAFEE0 /* SecondViewController.m */,
+				CC3535BA1BDA6EDD00783715 /* MyAnnotation.h */,
+				CC3535BB1BDA6EDD00783715 /* MyAnnotation.m */,
+				CCB980441BD8D86500FAFEE0 /* MainTabControllerViewController.h */,
+				CCB980451BD8D86500FAFEE0 /* MainTabControllerViewController.m */,
 				CCB9801A1BD8D00600FAFEE0 /* Main.storyboard */,
 				CCB9801D1BD8D00600FAFEE0 /* Assets.xcassets */,
 				CCB9801F1BD8D00600FAFEE0 /* LaunchScreen.storyboard */,
@@ -251,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3535B61BD9117D00783715 /* tr.png in Resources */,
 				CCB980211BD8D00600FAFEE0 /* LaunchScreen.storyboard in Resources */,
 				CCB9801E1BD8D00600FAFEE0 /* Assets.xcassets in Resources */,
 				CCB9801C1BD8D00600FAFEE0 /* Main.storyboard in Resources */,
@@ -278,8 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3535B91BD920C300783715 /* Order.m in Sources */,
 				CCB980191BD8D00600FAFEE0 /* SecondViewController.m in Sources */,
+				CCB980461BD8D86500FAFEE0 /* MainTabControllerViewController.m in Sources */,
 				CCB980131BD8D00600FAFEE0 /* AppDelegate.m in Sources */,
+				CC3535BC1BDA6EDD00783715 /* MyAnnotation.m in Sources */,
 				CCB980161BD8D00600FAFEE0 /* FirstViewController.m in Sources */,
 				CCB980101BD8D00600FAFEE0 /* main.m in Sources */,
 			);
@@ -421,9 +443,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DOT.myTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -432,9 +456,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = myTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DOT.myTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -505,6 +531,7 @@
 				CCB9803D1BD8D00600FAFEE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCB9803E1BD8D00600FAFEE0 /* Build configuration list for PBXNativeTarget "myTestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +540,7 @@
 				CCB980401BD8D00600FAFEE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCB980411BD8D00600FAFEE0 /* Build configuration list for PBXNativeTarget "myTestAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +549,7 @@
 				CCB980431BD8D00600FAFEE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
